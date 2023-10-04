@@ -1,15 +1,13 @@
-import { Fragment } from "react";
-import MainNavigation from "./main-navigation";
-import classes from './main-navigation.module.css'
-import Logo from './logo'
+import React, { Fragment } from 'react'
+import MainNavigation from '@/components/layout/main-navigation'
 
-export default function Layout (props) {
-   return (
+function Layout(props) {
+  return (
     <Fragment>
-          <MainNavigation />
-          <main>{props.children}</main>
+      <MainNavigation/>
+      <main>{props.children}</main>
     </Fragment>
-  
+  )
+}
 
-   ) 
-} 
+export default Layout;

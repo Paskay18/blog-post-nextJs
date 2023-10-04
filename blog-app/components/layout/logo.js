@@ -1,7 +1,12 @@
+import React from 'react'
 import classes from './logo.module.css'
 
-export default function Logo () {
-return( <div className={classes.logo}>
-    Mmapaseka"s Blog
-</div>)
+function Logo() {
+  return (
+    <div className={classes.logo}>
+      Mmapaseka Malebo's Next Blog
+    </div>
+  )
 }
+
+export default Logo
